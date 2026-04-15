@@ -23,4 +23,5 @@ public class Patisserie {
 		System.out.println("ただいまより開店です！！");
 
 	}
+
 }
