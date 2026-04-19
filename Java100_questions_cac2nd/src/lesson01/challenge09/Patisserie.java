@@ -117,6 +117,7 @@ public class Patisserie {
 		System.out.println("ピスターシュの味・・・" + (int) ((pistacheCount * 320) / totalPrice * 100) + "%");
 		System.out.println("\nが楽しめます！\n");
 		System.out.println("値段は\\" + (totalPrice / (int) totalCount) / 10 * 10 + "です。");
+
 	}
 
 }
