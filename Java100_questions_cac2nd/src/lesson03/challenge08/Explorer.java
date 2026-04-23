@@ -67,7 +67,8 @@ public class Explorer {
 			if (lithograph == 3) {//3の場合breakでクリア
 				System.out.println("隊長：");
 				System.out.println("やったー！3が出たよ！");
-			} else if (i != 6) {
+				break;
+			} else if (i < 6) {
 				System.out.println("隊長：");
 				System.out.println(lithograph + "だった...");
 				System.out.println("1時間待つよ（" + i + "時間経過）\n");
