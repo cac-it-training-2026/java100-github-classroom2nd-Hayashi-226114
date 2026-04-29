@@ -80,7 +80,6 @@ public class Explorer {
 		System.out.println("隊長：");
 		System.out.println("滝の前に着いたよ！\n");
 
-		//ここにfor文のネスト、if文を利用した処理を記述する。
 		for (int i = 13; i < 24; i++) {
 			for (int j = 0; j < 60; j++) {
 				if (i == 13 && j == 0) {
